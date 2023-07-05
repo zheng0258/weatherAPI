@@ -1,0 +1,32 @@
+/* Style the floating action button, which is fixed in the lower right of the app */
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:60px;
+    right:40px;
+    background-color:black;
+    color:white;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    cursor: pointer;
+}
+
+/* Style for the floating button icon, which should be centered within the button */
+.float-btn-icon{
+    vertical-align: middle;
+    color: white;
+    font-size: 24px;
+}
+
+/* Style to center weather stations */
+.ws-centered {
+    text-align: center; 
+}
+
+/* Style to pad weather stations */
+.ws-padding {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
